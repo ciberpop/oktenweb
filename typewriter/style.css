@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#inp_text {
+    font-size: 25px;
+    border-color: darkblue;
+}
+#btn_text {
+    font-size: 25px;
+    background-color: chartreuse;
+}
+#p_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    min-width: 60%;
+    background-color: #ccdffc;
+    border: 1px solid cyan;
+    font-size: 50px;
+}
